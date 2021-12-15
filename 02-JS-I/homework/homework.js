@@ -163,7 +163,7 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  return Math.round (num)
+  return Math.round (num)}
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
@@ -250,11 +250,11 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra.lenght>1){
-    return "dato incorrecto"
+    return "Dato incorrecto"
   } if (letra === a || letra === e|| letra === i|| letra === o|| letra === u )
    {return "es vocal"
 } 
-return "dato incorrecto"
+return "Dato incorrecto"
 
 
 
